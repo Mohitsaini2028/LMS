@@ -1,4 +1,4 @@
-Income Expenses API
+# Library Management System
 
 ## Installation steps
 
@@ -17,7 +17,7 @@ Income Expenses API
 7. Run the django development server using `python manage.py runserver`
 
 
-# Library Management System
+# Users
 ## ![](https://via.placeholder.com/15/f03c15/f03c15.png)   ``ADMIN functionalities``
 <li> Add a book</li>
 <li> Update a entry of a book</li>
@@ -52,7 +52,7 @@ Login page | Signup page
 ### ```View book record```
 ![chrome_7JSFsOVETR](https://user-images.githubusercontent.com/66358041/189936691-518d4555-a78e-4cba-8b8e-8d71752d9d69.png)
 
-### ```Add books```
+### ```Add book```
 ![chrome_8okDjfLS7R](https://user-images.githubusercontent.com/66358041/189937068-e5aa1de8-eca4-49a4-9814-c39a9bf8adb8.png)
 
 ### ```Edit book```
@@ -69,7 +69,7 @@ Delete page| Record deleted
 ### ```Search book```
 ![chrome_f4vjAeIEp3](https://user-images.githubusercontent.com/66358041/189938189-1ad00c7a-d286-4fdb-86b6-97893de9e4d4.png)
 
-### ```Search Result```
+### ```Search result```
 ![chrome_Bcood2V6Ed](https://user-images.githubusercontent.com/66358041/189938197-a50cb8b4-c7a5-453c-9d40-a7e4a2b03bdf.png)
 
 ### ```Only admin can access 'create', 'update' and 'delete' book record```
