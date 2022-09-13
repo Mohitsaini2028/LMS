@@ -1,0 +1,26 @@
+
+{% extends 'base.html' %}
+
+{% block title %} Login {% endblock title %}
+
+{% block body %}
+
+  <div id="main">
+      <h2>Login Window</h2>
+      <form method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your email" required>
+          </div>
+        <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" name="password" placeholder="Enter Your First Name" required>
+        </div>
+
+        <button type="submit" class="btn btn-warning">Login</button>
+      </form>
+      <a href="/signup" class="mt-4">Don't have account. Register now</a>
+  </div>
+
+{% endblock %}

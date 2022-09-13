@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Login {% endblock title %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/layout.css' %}">
+{% endblock %}
+
+{% load crispy_forms_tags %}
+{% block body %}
+
+    <div id="main">
+      <h2>Edit Book Record</h2>
+      <form action="/edit/" method="post">
+         {% csrf_token %}
+         <input type="hidden" name="bookid" value="{{book.id}}">
+         {{form|crispy}}
+         <button type="submit" class="btn btn-warning" >Update</button>
+      </form>
+    </div>
+
+{% endblock %}
